@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 22.11.4870</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-shadow {
+            box-shadow: -10px 20px 6px -1px rgba(0, 0, 0, 0.1), -10px -10px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .image-border {
+            border: 4px solid #fff; 
+        }
+        .custom-background {
+            background-image: url('bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color : white;
+        }
+        .header {
+            color: #497de0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <header class="text-center header">
+            <h1 class="text-4xl font-bold mt-8"><i>Tailwind CSS</i></h1>
+        </header>
+        <div class="mt-8 flex justify-center">
+            <img src="1.jpg" alt="app" class="w-100 h-80 object-cover rounded-lg shadow custom-shadow image-border">
+        </div>
+        <div class="mt-8 text-center custom-background py-4 rounded-lg">
+            <p class="py-4">It's a beautiful night, we're looking for something dumb to do Hey baby, I think I wanna marry you Is it the look in your eyes or is it this dancing juice? Who cares, baby, I think I wanna marry you.</p>
+        </div>
+        <div class="mt-8 text-center">
+            <p class="text-sm">Who cares, baby, I think I wanna marry you</p>
+        </div>
+    </div>
+</body>
+</html>
